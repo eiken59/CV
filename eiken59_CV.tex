@@ -10,7 +10,7 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=0.8in, right=0.8in, bottom=1in, top=1in]{geometry}
+\usepackage[left=0.65in, right=0.65in, bottom=1.2in, top=1in]{geometry}
 
 % Set line spacing
 \renewcommand{\baselinestretch}{1.15}
@@ -26,104 +26,111 @@
 \usepackage[libertine]{newtxmath}
 
 % Remove page numbering
-\pagenumbering{gobble}
+% \pagenumbering{gobble}
 
 % --- Document starts here ---
 
 \begin{document}
 
 % Name and date of last update to this document
-\noindent{\Huge{\ \ Chang, Yung-Hsuan}
-% \hfill{\it\footnotesize Updated \today}
+\noindent{\,\ \ \ \Huge{Chang, Yung-Hsuan}
+\hfill{\it\footnotesize Updated \today\ \ \,}
 }
 
 % --- Contact information and other items ---
 
 \vspace{0.5cm} 
-\noindent\quad\ \textbf{Email}: \href{mailto:eiken0525@gmail.com}{eiken0525@gmail.com}
+\noindent\:\ \ \ \textbf{Email}: \href{mailto:eiken0525@gmail.com}{eiken0525@gmail.com}
 
 % --- Start the two-column table storing the main content ---
 
 % Set spacing between columns
 \setlength{\tabcolsep}{8pt}
-
+\vspace{-1.5em}
 % Set the width of each column
-\begin{longtable}{p{0.8in}p{5.5in}}
+\begin{center}
+    \begin{longtable}{p{0.74in}p{5.95in}}
 
-% --- Section: Research interests ---
+        % --- Section: Research interests ---
+        
+        % \nohyphens{\color{OliveGreen}{Research interests}}
+        % & Your favorite topic, another topic, another topic, another topic, another topic \\
+        % & \\
+        
+        % --- Section: Education ---
+        
+        \textcolor{OliveGreen}{Education} 
+        & \textbf{National Yang Ming Chiao Tung University} \hfill Hsinchu City, Taiwan \\ 
+        & Applied Mathematics \hfill August, 2022 -- Present \\
+        & International Academic Exchange Program \hfill September, 2024 -- June, 2025\\
+        & \qquad \'Ecole Polytechnique, Palaiseau, France \\
+        & \\
+        
+        & \textbf{National Hsinchu Senior High School} \hfill Hsinchu City, Taiwan \\
+        & High School Diploma \hfill August, 2019 -- June, 2022\\
+        & \\
+        
+        % --- Uncomment the next few lines if you want to include some courses ---
+        %& \textbf{Selected coursework}
+        %\begin{itemize}[noitemsep,leftmargin=*]
+        %\item \underline{Relevant subject 1}: Course 1, Course 2, Course 3, Course 4
+        %\item \underline{Relevant subject 2}: Course 1, Course 2, Course 3, Course 4
+        %\end{itemize} \\
+        
+        % --- Section: Awards, scholarships, etc. ---
+        % --- Note: section title is spread over two lines ---
+        
+        {\textcolor{OliveGreen}{Honors}} & \textbf{Outstanding Student Overseas Exchange Scholarship} \hfill June, 2024\\
+        & Supported by National Yang Ming Chiao Tung University for my enrollment in the International Academic Exchange Program at \'Ecole Polytechnique. \\
+        & \\
+        & \textbf{Mathematics Presidential Award} \hfill September, 2023\\
+        & Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the 2nd semester of the 2022 Academic Year.\\
+        & \\
+        & \textbf{Honor Student} \hfill May, 2023\\
+        & Awarded by National Yang Ming Chiao Tung University for my study in the 1st semester of the 2022 Academic Year. \\
+        & \\
+        & \textbf{Mathematics Presidential Award} \hfill February, 2023\\
+        & Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the 1st semester of the 2022 Academic Year.\\
+        & \\
+        % & \textbf{Outstanding Performance Award} \hfill June, 2022\\
+        % & Awarded by the Hsinchu City Government for my study during high school.\\
+        % & \\
+        
+        % --- Section: Work experience ---
+        
+        {\textcolor{OliveGreen}{Work}} & \textbf{NYCU Applied Mathematics Summer Research Internship} \hfill June, 2024 -- July, 2024 \\
+        {\textcolor{OliveGreen}{Experience}} & Department of Applied Mathematics, National Yang Ming Chiao Tung University \\
+        & Some topics related to \href{https://hackmd.io/@eiken-sc11/B1QcaW3B0}{basics of mathematical finance} are discussed under the guidance of Prof. Yuki Chino.\\
+        & \\
+        
+        & \textbf{Teaching Assistant}  \hfill February, 2024 -- June, 2024 \\
+         
+        & Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
+        & \href{https://reurl.cc/RqoMez}{GECS10002 (564001)} Calculus A (II) under the guidance of Prof. Yuki Chino. \\
+        & \\
+        
+        & \textbf{Teaching Assistant} \hfill September, 2023 -- December, 2023 \\
+        & Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
+        & \href{https://reurl.cc/Djp5jN}{GECS10001 (564001)} Calculus A (I) under the guidance of Prof. Yuki Chino.\\
+        & \\
+        
+        % & \textbf{Assistant} \hfill September, 2020 -- June, 2022 \\
+        % & Office of Student Affairs, National Hsinchu Senior High School\\
+        % & \\
+        
+        % --- Section: Various skills (programming, software, languages, etc.) ---
+        
+        {\textcolor{OliveGreen}{Skills}} 
+        & \textbf{Programming}\\
+        & Familiar with C++ and Python. \\
+        & \\
+        
+        & \textbf{Languages} \\
+        & Mandarin, Japanese (CEFR B1), and English (CEFR C1). \\
+        
+        % --- End of CV! ---
+        
+        \end{longtable}
+\end{center}
 
-% \nohyphens{\color{OliveGreen}{Research interests}}
-% & Your favorite topic, another topic, another topic, another topic, another topic \\
-% & \\
-
-% --- Section: Education ---
-
-\textcolor{OliveGreen}{Education} 
-& \textbf{National Yang Ming Chiao Tung University} \hfill Hsinchu City, Taiwan \\ 
-& Applied Mathematics \hfill August, 2022 -- Present \\
-& \\
-
-& \textbf{National Hsinchu Senior High School} \hfill Hsinchu City, Taiwan \\
-& High School Diploma \hfill August, 2019 -- June, 2022\\
-& \\
-
-% --- Uncomment the next few lines if you want to include some courses ---
-%& \textbf{Selected coursework}
-%\begin{itemize}[noitemsep,leftmargin=*]
-%\item \underline{Relevant subject 1}: Course 1, Course 2, Course 3, Course 4
-%\item \underline{Relevant subject 2}: Course 1, Course 2, Course 3, Course 4
-%\end{itemize} \\
-
-% --- Section: Awards, scholarships, etc. ---
-% --- Note: section title is spread over two lines ---
-
-{\textcolor{OliveGreen}{Honors}}
-& \textbf{Mathematics Presidential Award} \hfill September, 2023\\
-& Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the 2nd semester of the 2022 Academic Year.\\
-& \\
-& \textbf{Honor Student} \hfill May, 2023\\
-& Awarded by National Yang Ming Chiao Tung University for my study in the 1st semester of the 2022 Academic Year. \\
-& \\
-& \textbf{Mathematics Presidential Award} \hfill February, 2023\\
-& Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the 1st semester of the 2022 Academic Year.\\
-& \\
-% & \textbf{Outstanding Performance Award} \hfill June, 2022\\
-% & Awarded by the Hsinchu City Government for my study during high school.\\
-% & \\
-
-% --- Section: Work experience ---
-
-{\textcolor{OliveGreen}{Work}} & \textbf{NYCU Applied Mathematics Summer Research Internship} \hfill June, 2024 -- July, 2024 \\
-{\textcolor{OliveGreen}{Experience}} & Department of Applied Mathematics, National Yang Ming Chiao Tung University \\
-& Some topics related to \href{https://hackmd.io/@eiken-sc11/B1QcaW3B0}{basics of mathematical finance} are discussed under the guidance of Prof. Yuki Chino.\\
-& \\
-
-& \textbf{Teaching Assistant}  \hfill February, 2024 -- June, 2024 \\
- 
-& Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
-& \href{https://reurl.cc/RqoMez}{GECS10002 (564001)} Calculus A (II) under the guidance of Prof. Yuki Chino. \\
-& \\
-
-& \textbf{Teaching Assistant} \hfill September, 2023 -- December, 2023 \\
-& Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
-& \href{https://reurl.cc/Djp5jN}{GECS10001 (564001)} Calculus A (I) under the guidance of Prof. Yuki Chino.\\
-& \\
-
-% & \textbf{Assistant} \hfill September, 2020 -- June, 2022 \\
-% & Office of Student Affairs, National Hsinchu Senior High School\\
-% & \\
-
-% --- Section: Various skills (programming, software, languages, etc.) ---
-
-{\textcolor{OliveGreen}{Skills}} 
-& \textbf{Programming}\\
-& Familiar with C++ and Python. \\
-& \\
-
-& \textbf{Languages} \\
-& Mandarin, Japanese (CEFR B1), and English (CEFR C1). \\
-
-% --- End of CV! ---
-
-\end{longtable}
 \end{document}
