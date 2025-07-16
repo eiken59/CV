@@ -1,0 +1,160 @@
+% --- LaTeX CV Template - S. Venkatraman ---
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+% \usepackage[utf8]{inputenc}
+
+% Package imports
+\usepackage{longtable, graphicx, hyperref, fancyhdr}
+\usepackage{CJKutf8}
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=0.65in, right=0.65in, bottom=1.2in, top=1in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+\newcommand{\ms}{\,}
+
+% --- Document starts here ---
+
+\begin{document}
+
+\begin{CJK*}{UTF8}{bkai}
+% Name and date of last update to this document
+\noindent{\,\ \ \:\!\:\!\Huge{張永璿}
+% \hfill{\it\footnotesize Updated \today\ \ \,}
+}
+
+% --- Contact information and other items ---
+
+\vspace{0.4cm}
+
+\href{mailto:eiken0525@gmail.com}{eiken0525@gmail.com} \hfill
+302050\ms新竹縣竹北市自強三路\ms59\ms號16樓\hfill
++886 916 969 330 \quad\ 
+
+\vspace{0.2cm}
+
+% --- Start the two-column table storing the main content ---
+
+% Set spacing between columns
+\setlength{\tabcolsep}{8pt}
+\vspace{-1.5em}
+% Set the width of each column
+\begin{center}
+    \begin{longtable}{p{0.72in}p{5.97in}}
+        
+        % --- Section: Education ---
+        
+        \textcolor{OliveGreen}{教育背景} 
+        & \href{https://www.nycu.edu.tw/nycu/en/index}{\textbf{國立陽明交通大學}} \hfill 中華民國新竹市 \\ 
+        & \textbf{應用數學系}
+            \hfill 2022\ms年\ms8\ms月 -- 現今 \\
+        & \qquad 出國交換，\href{https://www.polytechnique.edu}{巴黎綜合理工學院}，法國 \hfill 2024\ms年\ms9\ms月 -- 2025\ms年\ms6\ms月 \\
+        & \\
+        
+        % --- Section: Awards, scholarships, etc. ---
+        
+        {\textcolor{OliveGreen}{榮譽}}        & \textbf{優秀學生出國交換獎學金} \hfill 2024\ms年\ms6\ms月\\
+        & 由國立陽明交通大學與教育部支持。 \\
+        & \\
+        & \textbf{數學書卷獎} \hfill 2023\ms年\ms9\ms月\\
+        & 由國立陽明交通大學應用數學系頒發，表揚\ms111\ms學年度第二學期的數學學習成果。\\
+        & \\
+        & \textbf{優秀學生獎} \hfill 2023\ms年\ms5\ms月\\
+        & 由國立陽明交通大學頒發，表揚\ms111\ms學年度第一學期的學習成果。\\
+        & \\
+        & \textbf{數學書卷獎} \hfill 2023\ms年\ms2\ms月\\
+        & 由國立陽明交通大學應用數學系頒發，表揚\ms111\ms學年度第一學期的數學學習成果。\\
+        & \\
+
+        {\textcolor{OliveGreen}{技能}} 
+        & \textbf{程式設計}\\
+        & C++\ms與\ms Python。 \\
+        & \\
+        
+        & \textbf{語言} \\
+        & 中文、英文（CEFR C1\ms資格）、日文（JLPT N2\ms資格）和法文（大約\ms CEFR B1\ms等級）。 \\
+        & \\
+        
+        {\textcolor{OliveGreen}{專題}} & \textbf{一維與二維隨機行走到達時間與機率之研究} \hfill 2025\ms年\ms7\ms月 -- 2026\ms年\ms2\ms月 \\
+        & 大專學生研究計畫，國家科學及技術委員會 \\
+        & 在\href{https://scholar.nycu.edu.tw/en/persons/yuki-chino}{千野由喜}教授的指導下，研究一維與二維隨機行走的到達時間與機率，專注於其漸近行為。經費由國家科學及技術委員會以編號\ms114-2813-C-A49-139-M\ms補助。\\
+        & \\
+
+        & \textbf{以機器學習偵測信用卡詐騙} \hfill 2025\ms年\ms2\ms月 -- 2025\ms年\ms6\ms月 \\ 
+        & 分組專題，\href{https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12}{CSC\_2S004\_EP} 機器學習，巴黎綜合理工學院 \\
+        & 開發機器學習管線（pipeline）以偵測信用卡詐騙。見此\href{https://github.com/eiken59/ml_project/blob/main/README.md}{儲存庫}。\\
+        & \\
+
+        & \textbf{西洋棋機器人：Cagnus} \hfill 2024\ms年\ms11\ms月 -- 2025\ms年\ms1\ms月 \\
+        & 分組專題，\href{https://synapses.polytechnique.fr/catalogue/2024-2025/ue/32/CSC-2F001-EP-object-oriented-programming-in-c?from=D12}{CSC\_2S001\_EP} C++物件導向程式設計，巴黎綜合理工學院 \\
+        & 手刻開發\ms C++\ms西洋棋引擎，並在班級對戰中取得第\ms9\ms名（全班共\ms26\ms人）。見此\href{https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md}{儲存庫}。\\
+        & \\
+
+        & \textbf{在金融之前（Before Finance）} \hfill 2024\ms年\ms6\ms月 -- 2024\ms年\ms7\ms月 \\
+        & 國立陽明交通大學應用數學系\href{https://teshenglin.github.io/courses/2024_summer_research/}{暑期研究實習}，國立陽明交通大學應用數學系 \\
+        & 在千野由喜教授的指導下，探討數學金融相關\href{https://hackmd.io/@eiken-sc11/B1QcaW3B0}{主題}，包括賭徒破產問題與平賭。\\
+        & \\
+
+        % --- Section: Work experience ---
+        
+        {\textcolor{OliveGreen}{工作經驗}} & \textbf{營隊輔導員} \hfill 2025\ms年\ms8\ms月（預計） \\
+        & 國立陽明交通大學國際事務處 \\
+        & 我與另外四名學生工作人員合作，策劃並領導了一個為期兩週、專為日本大學生設計的語言與程式學習計畫，負責協調團隊作業並規劃學生的學習行程。\\
+        & \\
+
+        & \textbf{私人家教} \hfill 2024\ms年\ms9\ms月 -- 現今 \\
+        & 指導一位英國學制的八年級學生數學，著重於概念理解與應用，並以\ms Typst\ms製作講義。\\
+        & \\
+        
+        & \textbf{課程教材開發} \hfill 2025\ms年\ms3\ms月 -- 2025\ms年\ms5\ms月 \\
+        & \href{https://www.instagram.com/aijiatutoring/}{艾珈教育}\\
+        & 接受付費委託，根據台灣課綱為國中二年級學生製作數學講義。\\
+        & \\
+
+        & \textbf{教學助理}  \hfill 2023\ms年\ms9\ms月 -- 2023\ms年\ms12\ms月，2024\ms年\ms2\ms月 -- 2024\ms年\ms6\ms月 \\
+        & 國立陽明交通大學應用數學系\\
+        & 在千野由喜教授的指導下，開設\href{https://reurl.cc/Djp5jN}{微積分甲(一)}與\href{https://reurl.cc/RqoMez}{微積分甲(二)}的助教諮詢時間與批改學期考試。\\
+        & \\
+
+        & \textbf{課業輔導員} \hfill 2023\ms年\ms10\ms月 -- 2023\ms年\ms11\ms月，2024\ms年\ms4\ms月 -- 2024\ms年\ms5\ms月 \\
+        & 國立陽明交通大學教學發展中心\\
+        & 對國際學生提供微積分甲(一)與微積分甲(二)的課業輔導，每週進行教學並製作\href{https://github.com/eiken59/2024_II_Tutor}{自製講義}。\\
+        & \\
+
+        & \textbf{高中數學家教} \hfill 2023\ms年\ms4\ms月 -- 2023\ms年\ms6\ms月 \\
+        & 幫助高中學生準備台灣分科測驗數學\ms A，專注於解題技巧與考試策略。\\
+        & \\
+
+        % --- Section: Volunteering ---
+
+        {\textcolor{OliveGreen}{志工服務}} & \textbf{社團教學} \hfill 2020\ms年\ms9\ms月 -- 2021\ms年\ms6\ms月 \\
+        & 國立新竹高級中學軟體研究社\\
+        & 教授\ms C++\ms基礎（選擇結構與數論），並在社團實作時間提供程式協助。\\
+        & \\
+
+        & \textbf{日中逐步口譯員} \hfill 2019\ms年\ms10\ms月 \\
+        & 新竹縣政府竹北市公所文化觀光課\\
+        & 在\ms2019\ms竹北市秋天藝術節中，為來訪台灣的日本內灘町立內灘中學校管樂團提供日語逐步口譯；協助日本記者與光明國小樂團指揮的訪談翻譯；並協助竹北市政府工作人員的公告傳達翻譯。
+        
+        % --- Section: Various skills (programming, software, languages, etc.) ---
+        
+        
+        % --- End of CV! ---
+        
+    \end{longtable}
+\end{center}
+
+\end{CJK*}
+
+\end{document}
