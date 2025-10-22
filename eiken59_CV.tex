@@ -2,9 +2,9 @@
 
 % Set document class and font size
 \documentclass[letterpaper, 11pt]{article}
-% \usepackage[utf8]{inputenc}
 
 % Package imports
+\usepackage{fontspec}
 \usepackage{longtable, graphicx, hyperref, fancyhdr, bookman}
 
 % --- Page layout settings ---
@@ -22,6 +22,11 @@
 % Set link colors
 \usepackage[dvipsnames]{xcolor}
 \hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Typst brand styling: Buenard bold + official color #239DAD
+\definecolor{TypstColor}{HTML}{239DAD}
+\newfontfamily\TypstBuenard{Buenard}
+\DeclareRobustCommand{\Typst}{\textcolor{TypstColor}{\TypstBuenard\textbf{Typst}}}
 
 % Set font to Libertine, including math support
 \usepackage{libertine}
@@ -96,9 +101,6 @@
         & \textbf{Honor Student} \hfill May 2023\\
         & Awarded by National Yang Ming Chiao Tung University for my study in the first semester of the 2022 Academic Year. \\
         & \\
-        % & \textbf{Mathematics Presidential Award} \hfill February 2023\\
-        % & Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the first semester of the 2022 Academic Year.\\
-        % & \\
         % & \textbf{Outstanding Performance Award} \hfill June 2022\\
         % & Awarded by the Hsinchu City Government for my overall performances during my course of study at National Hsinchu Senior High School.\\
         % & \\
@@ -114,9 +116,9 @@
         & Mandarin, English (CEFR C1), Japanese (JLPT N2), and French (roughly CEFR B1).\\
         & \\
 
-        % & \textbf{Certificate} \\
-        % & SOA Exam P.\\
-        % & \\
+        & \textbf{Certificate} \\
+        & SOA Exam P.\\
+        & \\
         
         % --- Section: Projects ---
 
@@ -155,8 +157,9 @@
         & Collaborated with three other student staff members to plan and lead a two-week program for coding and language-immersion for Japanese university students, coordinating team efforts and structuring the students' schedules.\\
         & \\
 
-        & \textbf{Private Tutor} \hfill September 2024 -- June 2025 \\
-        & Taught and mentored an eighth-grade student in mathematics (UK system), focusing on conceptual understanding and application; creating handouts with Typst.\\
+        & \textbf{Private Tutor} \hfill September 2024 -- June 2025 \spaceand April 2023 -- June 2023 \\
+        % & Taught and mentored an eighth-grade student in mathematics (UK system), focusing on conceptual understanding and application; creating handouts with Typst.\\
+        & Tutored students with customized handouts in \LaTeX and \Typst. \\
         & \\
         
         % & \textbf{Curriculum Material Developer} \hfill March 2025 -- May 2025 \\
@@ -164,7 +167,8 @@
         % & Created a mathematics handout booklet for junior high second-year students, based on the Taiwan National Curriculum, as a paid private tutoring commission.\\
         % & \\
 
-        & \textbf{Teaching Assistant}  \hfill September 2023 -- December 2023 \spaceand February 2024 -- June 2024 \\
+        % & \textbf{Teaching Assistant}  \hfill September 2023 -- December 2023 \spaceand February 2024 -- June 2024 \\
+        & \textbf{Teaching Assistant}  \hfill September 2023 -- June 2024 \\
         & Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
         & Conducted office hours and marked exams for \href{https://reurl.cc/Djp5jN}{Calculus A (I)} and \href{https://reurl.cc/RqoMez}{Calculus A (II)} under Prof. CHINO Yuki.\\
         & \\
@@ -172,10 +176,10 @@
         & \textbf{Academic Tutor} \hfill October 2023 -- November 2023 \spaceand April 2024 -- May 2024\\
         & Center of Teaching and Learning Development, National Yang Ming Chiao Tung University\\
         & Tutored international students in Calculus A (I) and Calculus A (II), conducting weekly sessions and creating \href{https://github.com/eiken59/2024_II_Tutor}{handouts} in \LaTeX.\\
-        & \\
+        % & \\
 
-        & \textbf{Private Tutor} \hfill April 2023 -- June 2023 \\
-        & Helped a high school student prepare for the Advanced Subjects Test in Mathematics A, focusing on problem-solving and exam strategies.\\
+        % & \textbf{Private Tutor} \hfill April 2023 -- June 2023 \\
+        % & Helped a high school student prepare for the Advanced Subjects Test in Mathematics A, focusing on problem-solving and exam strategies.\\
         % & \\
 
         % & \textbf{Part-Time Assistant} \hfill September 2020 -- June 2022 \\
