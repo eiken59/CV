@@ -300,5 +300,9 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
 
+
+eiken59_CV_chinese.pdf
+eiken59_CV_chinese.tex
+
 *.DS_Store
 .DS_Store
