@@ -1,0 +1,1 @@
+I am not using LaTeX nor GitHub for my CV. For the newest version, please see https://eiken59.github.io/eiken59_CV.pdf.
